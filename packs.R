@@ -7,7 +7,7 @@ BiocManager::install(c(
     "AnVIL", "HiCExperiment", "HiCool", "HiContacts", 
     "HiContactsData", "fourDNData", "DNAZooData", "GenomicFeatures", 
     "impute", "preprocessCore", "GO.db", "GenomicInteractions", 
-    "ensembldb", "terra", "WGCNA"))
+    "ensembldb", "terra", "WGCNA"), ask=FALSE, update=FALSE)
 
-BiocManager::install("js2264/OHCA") # need remotes, but it might be present already
+BiocManager::install("js2264/OHCA", ask=FALSE, update=FALSE) # need remotes, but it might be present already
     
